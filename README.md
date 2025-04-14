@@ -111,7 +111,7 @@ reach.reachableOnWWAN = NO;
 // is passed in the object parameter
 [[NSNotificationCenter defaultCenter] addObserver:self
                                          selector:@selector(reachabilityChanged:)
-                                             name:kReachabilityChangedNotification
+                                             name:kTMReachabilityChangedNotification
                                            object:nil];
 
 [reach startNotifier];
