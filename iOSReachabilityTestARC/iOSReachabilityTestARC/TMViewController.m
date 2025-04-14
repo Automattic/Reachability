@@ -8,7 +8,7 @@
 
 #import "TMViewController.h"
 
-#import "Reachability.h"
+#import "TMReachability.h"
 
 @interface TMViewController ()
 
